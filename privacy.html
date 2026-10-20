@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Animation Lab website, channels and the Animation Lab Uploader app.">
+<link rel="icon" href="img/favicon-64.png">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Fredoka:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top"><div class="wrap">
+  <img src="img/flask-256.png" alt="">
+  <a class="brand" href="./">Animation Lab</a>
+  <nav><a href="privacy.html">Privacy</a><a href="data-deletion.html">Data deletion</a><a href="terms.html">Terms</a></nav>
+</div></header>
+
+<main class="doc wrap">
+  <h1>Privacy Policy</h1>
+  <p class="meta">Effective 20 October 2026</p>
+
+  <p>This policy covers three things:</p>
+  <ul>
+    <li><strong>this website</strong>;</li>
+    <li><strong>our channels</strong> on YouTube, Instagram, Facebook and Threads: Animation Lab, <span class="hi">एनिमेशन लैब</span> and Dr. Almost Right;</li>
+    <li><strong>Animation Lab Uploader</strong>: the private tool we use to publish our own videos to our own accounts through the YouTube Data API, the Meta Graph API (Facebook Pages and Instagram) and the Threads API.</li>
+  </ul>
+  <p>Animation Lab is run by an independent creator. Questions about this policy: <a href="mailto:pyrahulpndt@gmail.com">pyrahulpndt@gmail.com</a>.</p>
+
+  <div class="note">
+    <strong>In short:</strong>
+    <ul>
+      <li>We don't sell or share personal data.</li>
+      <li>This website has no ads, trackers, analytics or cookies.</li>
+      <li>Animation Lab Uploader works only with our own accounts. Nobody else can sign in to it, and it collects nothing about the people who watch our videos.</li>
+    </ul>
+  </div>
+
+  <h2>1. This website</h2>
+  <ul>
+    <li><strong>No collection by us:</strong> the site is a set of static pages. It has no sign-in, no forms, no cookies and no analytics, and it collects nothing about you.</li>
+    <li><strong>Hosting:</strong> the site is hosted on GitHub Pages. GitHub may log technical data such as your IP address to deliver the pages (<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>).</li>
+    <li><strong>Fonts:</strong> they load from Google Fonts, so Google may receive your IP address (<a href="https://policies.google.com/privacy">Google Privacy Policy</a>).</li>
+  </ul>
+
+  <h2>2. Our channels on social platforms</h2>
+  <ul>
+    <li><strong>Each platform's own policy applies</strong> when you watch, like, comment on, message or follow our accounts on YouTube, Instagram, Facebook or Threads.</li>
+    <li><strong>What we see</strong> is what the platforms show any account owner, inside their own apps. For example:
+      <ul>
+        <li>public comments and likes, with people's public names;</li>
+        <li>messages sent to our accounts;</li>
+        <li>our follower and subscriber lists;</li>
+        <li>statistics such as views and audience retention, as totals.</li>
+      </ul>
+      Animation Lab Uploader reads none of this.</li>
+    <li><strong>What we keep:</strong> nothing personal about viewers. We sometimes export audience-retention charts from YouTube Studio to improve our videos. They are totals, with no information about individual viewers.</li>
+  </ul>
+
+  <h2>3. Animation Lab Uploader (the app connected to Google and Meta)</h2>
+  <p><strong>Who can use it:</strong> only the owner of these channels, on their own devices. It is not offered to the public, and nobody else can sign in to it.</p>
+  <p><strong>What it accesses</strong>, only for our own accounts:</p>
+  <ul>
+    <li><strong>Google / YouTube:</strong>
+      <ul>
+        <li>with <code>youtube.upload</code>, it uploads our videos (title, description, tags, category, privacy setting and schedule) and sets their thumbnails;</li>
+        <li>with <code>youtube.readonly</code>, it reads only the signed-in channel's ID, name and handle (to check that the right channel is signed in) and the upload and processing status of the videos it has just uploaded.</li>
+      </ul>
+      It reads no other YouTube data: no playlists, subscriptions, comments, analytics or other videos.</li>
+    <li><strong>Meta (Facebook and Instagram):</strong>
+      <ul>
+        <li>a long-lived access token for the owner's own Facebook profile, and that profile's ID and name, used only to list the Pages it manages and to note which profile connected each Page;</li>
+        <li>the names and IDs of our Facebook Pages, and their Page access tokens;</li>
+        <li>the IDs and usernames of the Instagram professional accounts linked to those Pages, and their publishing limits.</li>
+      </ul>
+    </li>
+    <li><strong>Threads:</strong> the user ID and username of our own Threads profiles, and an access token to post on them.</li>
+    <li><strong>Post records:</strong> the ID, link, time and status of each post we make on our own accounts, plus our YouTube channel ID.</li>
+  </ul>
+  <p><strong>Meta permissions used, and why:</strong></p>
+  <ul>
+    <li><code>pages_show_list</code>, <code>pages_read_engagement</code> and <code>business_management</code>: to find our own Pages, including Pages in our business portfolio, and to read the status and link of the videos we post;</li>
+    <li><code>pages_manage_posts</code>: to post Reels and videos to our Pages;</li>
+    <li><code>instagram_basic</code> and <code>instagram_content_publish</code>: to find our Instagram accounts and post Reels to them;</li>
+    <li><code>threads_basic</code> and <code>threads_content_publish</code>: to find our Threads profiles and post to them.</li>
+  </ul>
+  <p>We don't use these permissions to read followers, comments, messages or insights.</p>
+  <p><strong>What it does with that data:</strong> it uploads our own videos, titles, descriptions and cover images to our own accounts, then checks that each post went live. It does nothing else, and it uses no data for advertising or profiling.</p>
+  <p><strong>Where it is stored:</strong></p>
+  <ul>
+    <li><strong>Sign-in tokens</strong> (Google refresh tokens; Meta and Threads access tokens), with the account ID each one belongs to, are kept only on the owner's own devices. They sit in local files that only the owner's user account can read (folder permissions 700, files 600).</li>
+    <li><strong>Short-lived Google access tokens</strong> are only ever held in memory.</li>
+    <li><strong>Tokens are never</strong> stored on a server, put in source control or shared.</li>
+    <li><strong>Post records</strong> are kept in our project files: on the owner's computer, and in the project's <em>private</em> GitHub repository. They concern only our own posts and never contain tokens.</li>
+    <li><strong>The tool's local control page</strong> runs on the owner's computer only (127.0.0.1). It uses one HttpOnly session cookie, and the browser's local storage for a session security token and remembered filters. Nothing in them is sent anywhere else.</li>
+  </ul>
+  <p><strong>Ads and third parties:</strong> Animation Lab Uploader shows no ads, and no third party serves content or advertising in it.</p>
+  <p><strong>Sharing:</strong> we don't sell, rent or share data. The Uploader only sends data in these ways:</p>
+  <ul>
+    <li>the uploads themselves, to Google and Meta;</li>
+    <li>our post records, to our private GitHub repository (<a href="https://docs.github.com/site-policy/privacy-policies/github-general-privacy-statement">GitHub Privacy Statement</a>);</li>
+    <li>a temporary Cloudflare quick tunnel that lets Instagram and Threads fetch the videos (and Instagram's cover images) being posted:
+      <ul>
+        <li>Cloudflare relays the files, and Cloudflare's public DNS is asked when the tunnel's address is ready;</li>
+        <li>each file sits at a random, unguessable address, and can only be read;</li>
+        <li>the tunnel is shut down, and its temporary folder deleted, when the upload run ends, normally within minutes.</li>
+      </ul>
+    </li>
+  </ul>
+  <p>To make the narration, our project also sends each video's script text to Azure AI Speech (Microsoft). That text contains no personal data.</p>
+  <p><strong>How long we keep it:</strong></p>
+  <ul>
+    <li>Sign-in tokens, and the account ID they belong to, are kept until access is revoked or we delete them.</li>
+    <li>If access is revoked (for Google, at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>), we delete the stored token, and any data received from that account, within 7 days.</li>
+    <li>Other data received from the YouTube API is never stored for more than 30 days.</li>
+    <li>Post records (the ID, link and time of each of our own posts) stay in our publishing history.</li>
+  </ul>
+
+  <h2>4. YouTube API Services and Google user data</h2>
+  <ul>
+    <li><strong>This app uses YouTube API Services.</strong> By using it you agree to be bound by the <a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>. See the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</li>
+    <li><strong>Revoking access:</strong> you can revoke the app's access to a Google account at any time on Google's security settings page: <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a> (Third-party apps &amp; services). For a brand channel, first switch to that channel's Brand Account with the account picker.</li>
+    <li><strong>Limited Use:</strong> Animation Lab Uploader's use and transfer to any other app of information received from Google APIs will adhere to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements.</li>
+  </ul>
+
+  <h2>5. Meta Platforms</h2>
+  <ul>
+    <li><strong>Use:</strong> data received from Meta's APIs is used only to publish to our own Facebook Pages, Instagram accounts and Threads profiles, as described above, in line with the <a href="https://developers.facebook.com/terms/">Meta Platform Terms</a>.</li>
+    <li><strong>Removing access:</strong> the steps are on the <a href="data-deletion.html">data deletion</a> page.</li>
+  </ul>
+
+  <h2>6. Children</h2>
+  <p>Our videos are made for a general audience. We don't knowingly collect personal data from anyone, including children, and the uploader isn't meant for children.</p>
+
+  <h2>7. Your choices and deletion</h2>
+  <ul>
+    <li>You can ask us to delete any data we hold about you, or ask what we hold, by emailing <a href="mailto:pyrahulpndt@gmail.com">pyrahulpndt@gmail.com</a>.</li>
+    <li>We delete data as soon as possible, and within 7 days of a deletion request. We answer other questions within 30 days.</li>
+    <li>See <a href="data-deletion.html">how to delete your data</a>.</li>
+  </ul>
+
+  <h2>8. Changes</h2>
+  <p>If this policy changes, we'll post the new version here with a new effective date.</p>
+
+  <h2>9. Contact</h2>
+  <p><a href="mailto:pyrahulpndt@gmail.com">pyrahulpndt@gmail.com</a></p>
+</main>
+
+<footer><div class="wrap">
+  <span>© 2026 Animation Lab</span>
+  <a href="./">Home</a>
+  <a href="data-deletion.html">Data deletion</a>
+  <a href="terms.html">Terms</a>
+</div></footer>
+</body>
+</html>
